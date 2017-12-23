@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="add" android:id="@+id/add"/>
+    <item android:title="insert" android:id="@+id/insert" />
+    <item android:title="replace" android:id="@+id/replace" />
+    <item android:title="remove" android:id="@+id/remove" />
+    <item android:title="clear" android:id="@+id/clear"/>
+
+</menu>

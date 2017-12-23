@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MaterialProgress.iml" filepath="$PROJECT_DIR$/MaterialProgress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialprogress/materialprogress.iml" filepath="$PROJECT_DIR$/materialprogress/materialprogress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialprogressdemo/materialprogressdemo.iml" filepath="$PROJECT_DIR$/materialprogressdemo/materialprogressdemo.iml" />
+    </modules>
+  </component>
+</project>
