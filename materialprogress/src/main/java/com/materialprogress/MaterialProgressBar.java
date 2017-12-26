@@ -47,7 +47,7 @@ public class MaterialProgressBar extends FrameLayout {
         addView(mCircleView);
 
         FrameLayout.MarginLayoutParams params = new FrameLayout.LayoutParams(WRAP_CONTENT, WRAP_CONTENT);
-        int margin = (int)(CircleImageView.SHADOW_RADIUS * metrics.density);
+        int margin = (int)(2 * CircleImageView.SHADOW_RADIUS * metrics.density);
         params.setMargins(margin, margin, margin, margin);
         mCircleView.setLayoutParams(params);
     }
