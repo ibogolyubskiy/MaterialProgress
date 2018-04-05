@@ -71,7 +71,7 @@ class CircleImageView extends AppCompatImageView {
         } else {
             OvalShape oval = new OvalShadow(mShadowRadius, diameter);
             circle = new ShapeDrawable(oval);
-            ViewCompat.setLayerType(this, ViewCompat.LAYER_TYPE_SOFTWARE, circle.getPaint());
+            setLayerType(LAYER_TYPE_SOFTWARE, circle.getPaint());
             circle.getPaint().setShadowLayer(mShadowRadius, shadowXOffset, shadowYOffset,
                     KEY_SHADOW_COLOR);
             final int padding = (int) mShadowRadius;
@@ -90,8 +90,8 @@ class CircleImageView extends AppCompatImageView {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         if (!elevationSupported()) {
-            setMeasuredDimension(getMeasuredWidth() + mShadowRadius*2, getMeasuredHeight()
-                    + mShadowRadius*2);
+            int size = mShadowRadius * 2;
+            setMeasuredDimension(getMeasuredWidth() + size,getMeasuredHeight() + size);
         }
     }
 
