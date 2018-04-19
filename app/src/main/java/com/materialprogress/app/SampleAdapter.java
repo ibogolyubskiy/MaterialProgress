@@ -5,7 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.materialprogressdemo.R;
+import com.materialprogress.R;
 import com.paging.pagingadapter.PagingAdapter;
 
 /*

@@ -9,7 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.materialprogressdemo.R;
+import com.materialprogress.R;
 import com.paging.pagingadapter.PagingListener;
 
 import java.util.ArrayList;
