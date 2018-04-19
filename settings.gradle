@@ -1,1 +1,1 @@
-include ':materialprogress', ':materialprogressdemo'
+include ':materialprogress', ':app'

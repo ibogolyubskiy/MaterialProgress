@@ -1,15 +1,15 @@
-package com.materialprogressdemo;
+package com.materialprogress.app;
 
 import android.os.Handler;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.materialprogressdemo.R;
 import com.paging.pagingadapter.PagingListener;
 
 import java.util.ArrayList;
