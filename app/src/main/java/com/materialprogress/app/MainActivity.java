@@ -1,7 +1,7 @@
 package com.materialprogress.app;
 
-import android.os.Handler;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -9,15 +9,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.materialprogress.R;
 import com.paging.pagingadapter.PagingListener;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class MainActivity extends AppCompatActivity implements PagingListener {
-
 
     RecyclerView recyclerView;
     SampleAdapter adapter;
